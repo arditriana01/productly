@@ -1,0 +1,126 @@
+h1, h2, h3, h4, h5, p, a{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
+
+.btn-primary{
+    background: #ff9900;
+    border: none;
+    padding: 15px 40px 15px 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background: rgb(219, 133, 4);
+    border: none;
+}
+
+.btn-secondary{
+    background: none;
+    border: 1px solid;
+    color: #ff9900;
+    padding: 15px 40px 15px 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background: rgb(219, 133, 4);
+    border: none;
+}
+
+.header .navbar{
+    box-shadow: 0px 1px 13px 0px rgba(14, 30, 112, 0.1);
+}
+
+.nav-link{
+    color: black;
+    font-weight: 600;
+}
+
+.hero h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.hero p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.hero img{
+    margin-top: 50px;
+}
+
+.featured h4, h3{
+    font-weight: 600;
+}
+
+.resource h1{
+    font-weight: 600;
+}
+
+.about h2{
+    font-weight: 700;
+}
+
+.resource .card{
+    margin-bottom: 20px;
+    margin-bottom: 7%;
+    margin-top: 7%;
+}
+
+.card{
+    -webkit-box-shadow: 0px 0px 45px -19px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 45px -19px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 45px -19px rgba(0,0,0,0.3);
+    border: none;
+    border-radius: 20px;
+}
+
+.pricing h2{
+    font-weight: 700;
+}
+
+.pricing .card{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+.pricing ul{
+    list-style-type: none;
+}
+
+.pricing .card a{
+    color: white;
+}
+
+footer{
+    background: bisque;
+}
+
+footer h3 {
+    font-weight: 700;
+}
+
+footer ul {
+    list-style-type: none;  
+    display: flex;
+    float: right;
+}
+
+footer ul li a{
+    padding: 7px;
+    font-size: 15px;
+    color: black;
+}
+
+footer h5{
+    font-size: 15px;
+}
